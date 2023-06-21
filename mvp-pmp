@@ -1,0 +1,100 @@
+Entidades:
+1. Proyecto 
+2. Integración 
+3. Herramientas 
+4. Técnicas 
+5. Alcance 
+6. Actividades 
+8. Requisitos
+9. Duración 
+10. Actividades 
+11. Calendario 
+12. Dependencias 
+13. Recursos
+14. Costo 
+15. Herramientas 
+16. Presupuesto
+17. Gastos
+18. Calidad  
+19. Requerimientos 
+20. Normas 
+21. Recursos Humanos 
+22. Equipo 
+23. Experiencia 
+24. Porcentaje de Tiempo  
+25. Habilidades 
+26. Ofertas 
+27. Comunicaciones 
+28. Interesados 
+29. Mensajes
+30. Riesgo 
+31. Análisis 
+32. Probabilidad 
+335. Impacto 
+34. Mitigación 
+35. Adquisición 
+36. Acuerdos 
+
+Relaciones:
+1. Un Proyecto puede tener una o varias Integraciones (1:N) 
+2. Una Integración puede involucrar una o varias Herramientas y/o Técnicas (M:N) 
+3. Una Herramienta sólo puede estar involucrada en uno o más Integraciones (M:N) 
+4. Una Técnica sólo puede estar involucrada en uno o más Integraciones (M:N)
+5 Un Proyecto puede tener uno o más Alcances (1:N) 
+6. Un Alcance puede tener una o varias Actividades y/o Requisitos (M:N) 
+7. Una Actividad sólo puede estar involucrada en uno o más Alcances (M:N) 
+8. Un Requisito sólo puede estar involucrado en uno o más Alcances (M:N)
+9. Un Proyecto puede tener una o varias Duraciones (1:N) 
+10. Una Duración puede involucrar una o varias Actividades (M:N) 
+11. Una Actividad sólo puede estar involucrada en una o más Duraciones (M:N)  
+12. Una Duración puede involucrar un Calendario y/o Dependencias (M:N) 
+13. Un Calendario sólo puede estar involucrado en una o más Duraciones (M:N) 
+14. Una Dependencia sólo puede estar involucrada en una o más Duraciones (M:N)
+15. Un Proyecto puede tener uno o más Recursos (1:N) 
+16. Un Recurso sólo puede estar involucrado en uno o más Proyectos (M:N)
+17. Un Proyecto puede tener uno o más Costos (1:N)
+18. Un Costo puede involucrar una o varias Herramientas y/o Técnicas (M:N)
+19. Una Herramienta sólo puede estar involucrada en uno o más Costos (M:N)
+20. Una Técnica sólo puede estar involucrada en uno o más Costos (M:N)
+21. Un Proyecto puede tener uno o más Presupuestos (1:N)
+22.Un Presupuesto sólo puede estar involucrado en uno o más Proyectos (M:N)
+23. Un Presupuesto puede involucrar una o varias Gastos (M:N) 
+24. Un Gasto sólo puede estar involucrado en uno o más Presupuesto (M:N)
+25. Un Proyecto puede tener una o varias Calidades (1:N)
+26. Una Calidad puede involucrar una o varias Actividades y/o Requisitos (M:N)
+27. Una Actividad sólo puede estar involucrada en uno o más Calidades (M:N)
+28. Un Requisito sólo puede estar involucrado en uno o más Calidades (M:N)
+29. Una Calidad puede involucrar una o varias Requerimientos y/o Normas (M:N)
+30. Un Requerimiento sólo puede estar involucrado en una o más Calidades (M:N)
+31. Una Norma sólo puede estar involucrada en uno o más Calidades (M:N)
+32. Una Calidad puede involucrar una o varias Herramientas (M:N)
+33. Una Herramienta sólo puede estar involucrada en una o más Calidades (M:N).
+34. Un Proyecto puede tener uno o más Recursos Humanos (1:N) 
+35. Un Recurso Humano puede involucrar una o varias Equipo y/o Experiencias (M:N) 
+36. Un Equipo solo puede estar involucrado en uno o más Recursos Humanos (M:N) 
+37. Una Experiencia solo puede estar involucrada en uno o más Recursos Humanos (M:N) 
+38. Un Recurso Humano puede involucrar un Porcentaje de Tiempo  (1:1) 
+39. Un Recurso Humano puede involucrar una o varias Habilidades y/o Ofertas (M:N) 
+40. Una Habilidad solo puede estar involucrada en uno o más Recursos Humanos (M:N) 
+41. Una Oferta solo puede estar involucrada en uno o más Recursos Humanos (M:N).
+42. Un Proyecto puede tener una o varias Comunicaciones (1:N) 
+43. Una Comunicación puede involucrar una o varias Herramientas (M:N) 
+44. Una Herramienta sólo puedeestar involucrada en una o más Comunicaciones (M:N) 
+45. Una Comunicación puede involucrar uno o más Interesados (M:N)
+46. Un Interesado sólo puede estar involucrado en una o más Comunicaciones (M:N)
+47. Una Comunicación solo puede involucrar uno o más Mensajes (M:N) 
+48. Un Mensaje sólo puede estar involucrado en una o más Comunicaciones (M:N).
+49. Un Proyecto puede tener uno o más Riesgos (1:N) 
+50. Un Riesgo sólo puede estar involucrado en uno o más Proyectos (M:N) 
+51. Un Riesgo puede involucrar uno o más Análisis (M:N)
+52. Un Análisis sólo puede asociarse a uno o más Riesgos (M:N) 
+53. Un Análisis puede involucrar una Probabilidad y/o un Impacto (M:N) 
+54. Una Probabilidad sólo puede estar involucrada en uno o más Análisis (M:N)
+55. Un Impacto sólo puede estar involucrado en uno o más Análisis (M:N) 
+56. Un Riesgo puede involucrar uno o más Mitigación (M:N) 
+57. Una Mitigación sólo puede estar involucrada en uno o más Riesgos (M:N).
+58. Un Proyecto puede tener una o varias Adquisiciones (1:N) 
+59. Una Adquisición solo puede estar involucrada en una o más Proyectos (M:N) 
+60. Una Adquisición puede involucrar una o varias Ofertas y/o Acuerdos (M:N) 
+61. Una Oferta sólo puede estar involucrada en uno o más Adquisiciones (M:N)
+62. Un Acuerdo sólo puede estar involucrado en una o más Adquisiciones (M:N).
